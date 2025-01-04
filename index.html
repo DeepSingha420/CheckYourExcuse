@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+
+<HTML>
+	<body>
+	
+	<style>  
+		.container{  
+		text-align: center;  
+  
+		}  
+		#btn{  
+		font-size: 25px;  
+		}  
+	</style>   
+	<div class="container">
+		<h1>Why you failed the last sem?</h1>
+		<h2 id='fate'>your excuse is...</h2>
+		<br>
+		<button id ="btn"> Generate Fate </button> 
+		<br>
+		<br>
+		<a href='about.html'>about</a>
+	</div> 
+
+	</body>
+</HTML>
+
+<script>
+    //Select button by id
+    const btn = document.getElementById('btn');
+    //Add on click listener for button
+    btn.addEventListener('click', function() {
+        //Select (h1) heading by id, and then change it's value to (bananas)
+		let x = Math.floor((Math.random() * 20) + 1);
+		if (x==1)
+		document.getElementById('fate').innerText = "The suggestions were terrible 😭";
+		else if(x==2)
+		document.getElementById('fate').innerText = "Busy counting days for Christmas 😀";
+		else if(x==3)
+		document.getElementById('fate').innerText = "Happy New Year Sir/Ma'am 🥰";
+		else if(x==4)
+		document.getElementById('fate').innerText = "Watched Inception for the 17th time and still didn't get it 🤯";
+		else if(x==5)
+		document.getElementById('fate').innerText = "Let's talk about Xavotsav 🤩";
+		else if(x==6)
+		document.getElementById('fate').innerText = "Dude! I passed already! 💀";
+		else if(x==7)
+		document.getElementById('fate').innerText = "Already got a job 🤑";
+		else if(x==8)
+		document.getElementById('fate').innerText = "I was thinking about a carrer-change 🤔";
+		else if(x==9)
+		document.getElementById('fate').innerText = "Turned out, I did have COVID for the 4th time ⚰️";
+		else if(x==10)
+		document.getElementById('fate').innerText = "I was in Japan 🥷";
+		else if(x==11)
+		document.getElementById('fate').innerText = "No Comment✋";
+		else if(x==12)
+		document.getElementById('fate').innerText = "Busy fulfiling a political agenda 🤡";
+		else if(x==13)
+		document.getElementById('fate').innerText = "Didn't make it to the exam center 🏃‍♀️🏃‍♂️🏃";
+		else if(x==14)
+		document.getElementById('fate').innerText = "Examiner surely checked the pper wrongly 😡";
+		else if(x==15)
+		document.getElementById('fate').innerText = "I was sure about it 🤐";
+		else if(x==16)
+		document.getElementById('fate').innerText = "Doesn't matter 😎";
+		else if(x==17)
+		document.getElementById('fate').innerText = "Blah.. Blah.. Blah.. ➿➿";
+		else if(x==18)
+		document.getElementById('fate').innerText = "Let's focus on th next sem 💪";
+		else if(x==19)
+		document.getElementById('fate').innerText = "Busy playing Minecraft 🎮";
+		else if(x==20)
+		document.getElementById('fate').innerText = "I was sabotaged 🤕";
+    }
+	
+	)
+		
+        
+</script>
